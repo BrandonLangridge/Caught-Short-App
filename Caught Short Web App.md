@@ -60,4 +60,4 @@ Community Contributions: Allow users to add new locations and update existing in
 
 User-Friendly Interface: Design an intuitive and accessible interface that caters to a wide range of users, including those with disabilities.
 
-![Insert your Context Diagram Here](images/https://github.com/BrandonLangridge/Caught-Short-App/blob/main/ContextDiagram.jpg)
+![Insert your Context Diagram Here](ContextDiagram.jpg)
