@@ -19,8 +19,8 @@ Children: Will benefit by being able to find a safe location for a toilet in a p
 | **Assumptions** | We have enough data to pull from Bristol Open Data and Google maps to aide navigation |
 | **Steps** | User will filter their search to look for facilities with baby changing capbility. The system will provide a list of the closest facilities with accurate distances and locations on a spot map. User will copy and paste location from the system into Google maps to navigate to the avilable facility |
 | **Variations** | The user could navigate their way to the facility without copying and pasting the location into Google maps if they know the area well or they can use the spot map effectively |
-| **Non-functional** | The system should provide up to date available facilities and their accurate locations |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Non-functional** | The system should provide up to date available facilities, The facilities accurate location and the distance from the user to them  |
+| **Issues** | Showing the location of the faciltiies on a spot map |
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
