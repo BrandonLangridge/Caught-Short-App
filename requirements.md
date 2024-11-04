@@ -37,6 +37,8 @@ TODO: Your Use-Case diagram should include all use-cases.
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 
+<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="https://github.com/user-attachments/assets/bc29867c-87b5-49c2-aced-59c4b4c7491c">
+
 ## Software Requirements Specification
 ### Functional requirements
 TODO: create a list of functional requirements. 
