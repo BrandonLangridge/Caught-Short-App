@@ -6,12 +6,21 @@
 As a person in Bristol I want to find a nearby public toilet that suits my needs so that I am able to relieve myself and continue with my day.
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+Unisex adults: Will beneift by finding a toilet that suits there needs based on gender.
+Parents (with a baby): Will benefit by finding toilets with baby changing facilities suitable for their baby's needs.
+Children: Will benefit by being able to find a safe location for a toilet in a public space.    
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
+
+| USE-CASE ID UC1 | Find all baby changing facilities in Bristol | 
+| -------------------------------------- | ------------------- |
+| **Description** | Find baby changing facilities via Bristol Open Data and Geo-location |
+| **Actors** | Parents (with a baby) that require baby changing facilities |
+| **Assumptions** | We have enough data to pull from Bristol Open Data and Google maps to aide navigation |
+| **Steps** | User will filter their search to look for facilities with baby changing capbility. The system will provide a list of the closest facilities with accurate distances and locations on a spot map. User will copy and paste location from the system into Google maps to navigate to the avilable facility |
+| **Variations** | The user could navigate their way to the facility without copying and pasting the location into Google maps if they know the area well or they can use the spot map effectively |
+| **Non-functional** | The system should provide up to date available facilities and their accurate locations |
+| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
