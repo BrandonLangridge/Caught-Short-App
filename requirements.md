@@ -33,9 +33,7 @@ Children: Will benefit by being able to find a safe location for a toilet in a p
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
-TODO: Your Use-Case diagram should include all use-cases.
-
-![Insert your Use-Case Diagram Here](images/use-case.png)
+Use-case 1:
 
 <img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="https://github.com/user-attachments/assets/bc29867c-87b5-49c2-aced-59c4b4c7491c">
 
@@ -46,9 +44,16 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
 
+FR1: Provide the location of the closest availble facility that fits the users requirments. UC 1.
+FR2: Provide an address for the closest available facility to be simply copied and pasted into Google Maps for simple navigation. UC 1.
+    
+
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
-
 Indicate which UC the requirement comes from.
+
+NFR1: Accurate spot map location and address of the closest available facility. UC 1.
+NFR2: Simplistic usability when filtering individual needs to select the right facility for the user. UC 1.
+ 
