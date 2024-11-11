@@ -23,6 +23,7 @@ Children: Will benefit by being able to find a safe location for a toilet in a p
 | **Non-functional** | The system should provide up to date available facilities, The facilities accurate location and the distance from the user to them  |
 | **Issues** | Showing the location of the faciltiies on a spot map |
 
+Use-case 1:
 <img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="https://github.com/user-attachments/assets/bc29867c-87b5-49c2-aced-59c4b4c7491c">
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
@@ -37,7 +38,6 @@ Children: Will benefit by being able to find a safe location for a toilet in a p
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
-Use-case 1:
 
 
 
