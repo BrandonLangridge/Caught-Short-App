@@ -59,5 +59,5 @@ Community Contributions: Allow users to add new locations and update existing in
 
 User-Friendly Interface: Design an intuitive and accessible interface that caters to a wide range of users, including those with disabilities.
 
-<img src="context-diagram.jpg">
+<img src="pictures/context-diagram.jpg">
 
