@@ -21,7 +21,6 @@ Data Collection: The app can gather data on toilet usage patterns, helping local
 Emergency Situations: In urgent situations, having a reliable source to find the nearest toilet can be crucial for users, providing peace of mind whilst in a public space.
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
 
 Bristol.gov.uk contains a map that lists all the available toilets. These can be selected to access information about the specific location. There is however no way to search by specific needs, eg. a list of all the unisex bathrooms.
 
