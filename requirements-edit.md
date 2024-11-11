@@ -28,7 +28,7 @@ As a parent I need to know where I can access baby changing facilities when out 
 | **Issues** | Showing the location of the faciltiies on a spot map |
 
 Use-case 1:
-<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="https://github.com/user-attachments/assets/bc29867c-87b5-49c2-aced-59c4b4c7491c">
+<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="babychange-usecase-diagram.png">
 
 | UC2| Find unisex bathrooms| 
 | -------------------------------------- | ------------------- |
