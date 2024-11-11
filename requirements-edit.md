@@ -41,6 +41,8 @@ Use-case 1:
 | **Non-functional** | The list presented to the user should be easily read by a person of average vision. |
 | **Issues** |  |
 
+<img src="unisex-usecase-diagram.png">
+
 
 
 
