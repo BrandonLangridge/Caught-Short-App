@@ -14,6 +14,7 @@ Children: Will benefit by being able to find a safe location for a toilet in a p
 
 | USE-CASE ID UC1 | Find all baby changing facilities in Bristol | 
 | -------------------------------------- | ------------------- |
+| **Team Member** | Brandon |
 | **Description** | Find baby changing facilities via Bristol Open Data and Geo-location |
 | **Actors** | Parents (with a baby) that require baby changing facilities |
 | **Assumptions** | We have enough data to pull from Bristol Open Data and Google maps to aide navigation |
