@@ -14,7 +14,7 @@ Accessibility: The app can highlight free-access toilets, ensuring that users ha
 
 Customisation: Users can filter searches based on specific needs, such as baby-changing facilities or gender-specific restrooms, enhancing user experience.
 
-Tourism Enhancement: For travelers, the app can serve as a valuable resource, making it easier to navigate new areas without the anxiety of finding a restroom.
+Tourism Enhancement: For travellers, the app can serve as a valuable resource, making it easier to navigate new areas without the anxiety of finding a restroom.
 
 Data Collection: The app can gather data on toilet usage patterns, helping local authorities identify areas in need of more facilities or maintenance.
 
@@ -30,7 +30,7 @@ Flush is a great bathroom locator app that works all over the world. At the time
 
 ### Expected Risks
 
-Dependancy on technology: As it is an interactive map, it may be problematic for users with older devices or those using poor internet connections.
+Dependency on technology: As it is an interactive map, it may be problematic for users with older devices or those using poor internet connections.
 
 Privacy Concerns: The app may collect location data and user information, raising potential privacy issues. Users might be hesitant to share their location due to fears of being tracked or having their data misused.
 
@@ -53,9 +53,9 @@ Filter Options: Allow users to filter searches based on specific needs, such as 
 
 User Ratings and Reviews: Enable users to rate and review facilities, providing insights into cleanliness and overall experience.
 
-Interactive Map: Integrate an interactive map that shows the locations of nearby toilets. Then link those locations to googlemaps to allow users to navigate their way to them.
+Interactive Map: Integrate an interactive map that shows the locations of nearby toilets. Then link those locations to google maps to allow users to navigate their way to them.
 
-Community Contributions: Allow users to add new locations and update existing information, fostering a community-driven approach to maintaining accurate data. WHich will be screened by an admin.
+Community Contributions: Allow users to add new locations and update existing information, fostering a community-driven approach to maintaining accurate data. Which will be screened by an admin.
 
 User-Friendly Interface: Design an intuitive and accessible interface that caters to a wide range of users, including those with disabilities.
 
