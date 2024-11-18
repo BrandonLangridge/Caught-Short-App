@@ -22,10 +22,10 @@ As a parent I need to know where I can access baby changing facilities when out 
 | **Description** | Find baby changing facilities via Bristol Open Data and Geo-location |
 | **Actors** | Parents (with a baby) that require baby changing facilities |
 | **Assumptions** | We have enough data to pull from Bristol Open Data and Google maps to aide navigation |
-| **Steps** | User will filter their search to look for facilities with baby changing capbility. The system will provide a list of the closest facilities with accurate distances and locations on a spot map. User will copy and paste location from the system into Google maps to navigate to the available facility |
+| **Steps** | User will filter their search to look for facilities with baby changing capability. The system will provide a list of the closest facilities with accurate distances and locations on a spot map. User will copy and paste location from the system into Google maps to navigate to the available facility |
 | **Variations** | The user could navigate their way to the facility without copying and pasting the location into Google maps if they know the area well or they can use the spot map effectively |
 | **Non-functional** | The system should provide up to date available facilities, The facilities accurate location and the distance from the user to them  |
-| **Issues** | Showing the location of the faciltiies on a spot map |
+| **Issues** | Showing the location of the facilities on a spot map |
 
 Use-case 1:
 <img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="pictures/babychange-usecase-diagram.png">
@@ -36,7 +36,7 @@ Use-case 1:
 | **Description** | Enable users to find unisex public bathrooms, either as a total list across Bristol or by the user's location |
 | **Actors** | People in Bristol. Potential tourists planning a visit. |
 | **Assumptions** | We have a database of unisex bathrooms and their location and the ability to acquire a user's location.
-| **Steps** | User may provide their location data to the app and request informatin on nearest unisex bathrooms. The database shall be searched for bathrooms that are both unisex and near the user's location and the results shall be presented to the user. Alternatively user may request list of all unisex bathrooms without providing location.  |
+| **Steps** | User may provide their location data to the app and request information on nearest unisex bathrooms. The database shall be searched for bathrooms that are both unisex and near the user's location and the results shall be presented to the user. Alternatively user may request list of all unisex bathrooms without providing location.  |
 | **Variations** | There may be no unisex bathrooms near the user's location. The user will be informed that this is the case. |
 | **Non-functional** | The list presented to the user should be easily read by a person of average vision. |
 | **Issues** |  |
@@ -54,7 +54,7 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
 
-FR1: Provide the location of the closest availble facility that fits the users requirments. UC 1.
+FR1: Provide the location of the closest available facility that fits the users requirements. UC 1.
 FR2: Provide an address for the closest available facility to be simply copied and pasted into Google Maps for simple navigation. UC 1.
     
 
