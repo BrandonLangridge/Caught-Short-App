@@ -45,14 +45,14 @@ Use-case 1:
 
 | UC3| Find most suitable toilet| 
 | -------------------------------------- | ------------------- |
-| **Team Member** | Brandon and Graham |
-| **Description** | Enable users to find unisex public bathrooms, either as a total list across Bristol or by the user's location |
-| **Actors** | People in Bristol. Potential tourists planning a visit. |
-| **Assumptions** | We have a database of unisex bathrooms and their location and the ability to acquire a user's location.
-| **Steps** | User may provide their location data to the app and request information on nearest unisex bathrooms. The database shall be searched for bathrooms that are both unisex and near the user's location and the results shall be presented to the user. Alternatively user may request list of all unisex bathrooms without providing location.  |
-| **Variations** | There may be no unisex bathrooms near the user's location. The user will be informed that this is the case. |
-| **Non-functional** | The list presented to the user should be easily read by a person of average vision. |
-| **Issues** |  |
+| **Team Member** | Brandon |
+| **Description** | Enable restaurant owners and pub owners to add value to the app by providing infomation on the facilities they have. |
+| **Actors** | Retaurant and pub owners as well as people (the users) in Bristol.|
+| **Assumptions** | We have a database of bathrooms and their location and the ability to acquire the user's location.
+| **Steps** | User may provide their location data to the app and request information on nearest bathroom. Pub and restaurant owner provide additonal information on the facilities that are available. App provides closest toilet that suits the users needs. |
+| **Variations** | There may not be any avilable toilets that suit the user's need near by. The user will be informed that this is the case. |
+| **Non-functional** | The list presented to the user should be easily to understand and simple to copy and paste into a navigation app. |
+| **Issues** | Pub and restraunt owners might be too busy to provide additional infromation on their available facilities. |
 
 <img src="pictures/most-suitable-toilet.png">
 
