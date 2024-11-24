@@ -36,7 +36,7 @@ Use-case 1:
 | **Description** | Enable users to find unisex public bathrooms, either as a total list across Bristol or by the user's location |
 | **Actors** | People in Bristol. Potential tourists planning a visit. |
 | **Assumptions** | We have a database of unisex bathrooms and their location and the ability to acquire a user's location.
-| **Steps** | User may provide their location data to the app and request information on nearest unisex bathrooms. The database shall be searched for bathrooms that are both unisex and near the user's location and the results shall be presented to the user. Alternatively user may request list of all unisex bathrooms without providing location.  |
+| **Steps** | User may provide their location data to the app and request information on nearest unisex bathrooms. The Open Data Bristol database shall be searched for bathrooms that are both unisex and near the user's location and the results shall be presented to the user. Alternatively user may request list of all unisex bathrooms without providing location.  |
 | **Variations** | There may be no unisex bathrooms near the user's location. The user will be informed that this is the case. |
 | **Non-functional** | The list presented to the user should be easily read by a person of average vision. |
 | **Issues** |  |
