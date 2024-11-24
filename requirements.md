@@ -3,9 +3,9 @@
 ## User Needs
 
 ### User stories
-As a person in Bristol I want to find a nearby public toilet that suits my needs so that I am able to relieve myself and continue with my day.
+* As a person in Bristol I want to find a nearby public toilet that suits my needs so that I am able to relieve myself and continue with my day.
 
-As a parent I need to know where I can access baby changing facilities when out in Bristol.
+* As a parent I need to know where I can access baby changing facilities when out in Bristol.
 
 ### Actors
 * People of all genders will benefit by finding a toilet that suits their personal needs.
@@ -59,21 +59,21 @@ Use-case 1:
 ## Software Requirements Specification
 ### Functional requirements
 
-FR1: The system shall pull data from the Bristol Open Data database, to be queried by specific criterias given by the user. UC1, UC2.
-FR2: The system shall provide a list of all facilities, including their addresses, that fit a users criteria (eg. unisex toilets, baby changing facilities).UC1, UC2.
-FR3: The system should provide a list of facilities near a given user's location. UC1, UC2.
-FR4: The system could show users the locations of facilities on an interactive map. UC1, UC2.
-FR5: The system could allow restaurant and pub owners to add information about their facilities to the app. UC3
-FR6: The system won't allow users to create a profile to save their preferences for future use. UC1, UC2.
+* FR1: The system shall pull data from the Bristol Open Data database, to be queried by specific criterias given by the user. UC1, UC2.  
+* FR2: The system shall provide a list of all facilities, including their addresses, that fit a users criteria (eg. unisex toilets, baby changing facilities).UC1, UC2.  
+* FR3: The system should provide a list of facilities near a given user's location. UC1, UC2.  
+* FR4: The system could show users the locations of facilities on an interactive map. UC1, UC2.  
+* FR5: The system could allow restaurant and pub owners to add information about their facilities to the app. UC3  
+* FR6: The system won't allow users to create a profile to save their preferences for future use. UC1, UC2.
 
     
 
 
 ### Non-Functional Requirements
 
-NFR1: Ths system shall have simplistic usability when filtering individual needs to select the right facility for the user. UC1, UC2.
-NFR2: The system shall make sure lists presented to the user can be easily read by a person of average vision. UC1, UC2.
-NFR3: The system shall be operable on the most common PC browsers and on android. UC1, UC2.
-NFR4: The system shall provide resutls from user criteria without delay. UC1, UC2.
+* NFR1: Ths system shall have simplistic usability when filtering individual needs to select the right facility for the user. UC1, UC2.  
+* NFR2: The system shall make sure lists presented to the user can be easily read by a person of average vision. UC1, UC2.  
+* NFR3: The system shall be operable on the most common PC browsers and on android. UC1, UC2.  
+* NFR4: The system shall provide resutls from user criteria without delay. UC1, UC2.
 
  
