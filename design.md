@@ -1,7 +1,8 @@
 # Design
 
 ## User Interface design
-TODO: Specify and develop a user interface mockup using a wireframe.
 
-![Insert your wireframe/wireflow here](images/wireframe.png)
-TODO: repeat as necessary
+<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="pictures/WireFrame1.png">
+<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="pictures/WireFrame2.png">
+<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="pictures/WireFrame3.png">
+
