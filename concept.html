@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>Caught Short App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .w3-input {
+        width: 12ch;
+      }
+    </style>
+    <script>
+      function query() {
+        let url =
+          "https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=1%3D1&outFields=*&outSR=4326&f=json";
+        fetch(url, { method: "GET", headers: { Accept: "application/json" } })
+          .then((res) => res.json())
+          .then(outputTable);
+      }
+
+      function filter(e) {
+        items = document.getElementsByClassName("w3-bar-item");
+        for (var i = 0; i < items.length; i++) {
+          items[i].classList.remove("w3-black");
+        }
+        e.classList.add("w3-black");
+        let encoded = encodeURIComponent(e.value);
+        // https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=BABY_CHANGE%20%3D%20%27Y%27&outFields=*&outSR=4326&f=json
+        let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=BABY_CHANGE%20%3D%20'${encoded}'&outFields=*&outSR=4326&f=json`;
+        // `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_transport/MapServer/28/query?where=TYPE%20LIKE%20'${encoded}'&outFields=NAME,MAINTAINED,TYPE&outSR=4326&f=json`;
+        fetch(url, { method: "GET", headers: { Accept: "application/json" } })
+          .then((res) => res.json())
+          .then(outputTable);
+      }
+
+      function outputTable(json) {
+        var results = document.getElementById("results");
+        results.innerHTML = "";
+        var f = json.features;
+        for (var i = 0; i < f.length; i++) {
+          var tr = document.createElement("tr");
+          results.appendChild(tr);
+          var td = document.createElement("td");
+          tr.appendChild(td);
+          td.innerHTML = json.features[i].attributes.TOILET_NAME;
+          var td1 = document.createElement("td");
+          tr.appendChild(td1);
+          td1.innerHTML = json.features[i].attributes.POSTCODE;
+          var td2 = document.createElement("td");
+          tr.appendChild(td2);
+          td2.innerHTML = json.features[i].attributes.OPENING_HOURS;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Caught Short App</h1>
+      </header>
+      <nav>
+        <button
+          onclick="location.href='index.html'"
+          class="w3-button w3-block w3-black w3-border w3-border-white"
+        >
+          Find Unisex Bathrooms
+        </button>
+        <button
+          class="w3-button w3-block w3-black w3-border w3-border-white"
+          value="Y"
+          onclick="filter(this)"
+        >
+          Find Baby Changing Facilities
+        </button>
+
+        <button class="w3-button w3-block w3-black w3-border w3-border-white">
+          Add / Update Your Facilities
+        </button>
+      </nav>
+      <main>
+        <div>
+          <div>
+            <h2 style="font-size: 1.2em">
+              Enter Postcode or Provide Geolocation
+            </h2>
+          </div>
+          <div class="search-container">
+            <input
+              type="text"
+              name="search"
+              class="w3-bar-item w3-input"
+              placeholder="Postcode..."
+            />
+            <button class="w3-bar-item w3-button">Search</button>
+          </div>
+          <div>
+            <button class="w3-bar-item w3-button">
+              List all without providing location
+            </button>
+          </div>
+        </div>
+
+        <table>
+          <tbody id="results"></tbody>
+        </table>
+
+        <script>
+          query();
+        </script>
+      </main>
+    </div>
+  </body>
+</html>
