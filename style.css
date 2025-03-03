@@ -1,0 +1,22 @@
+#container {
+    display: grid;
+    grid-template-areas:
+        'h h h h'
+        'n m m m'
+        'n m m m';
+}
+header { 
+    grid-area: h;
+}
+nav { 
+    grid-area: n;
+}
+main { 
+    grid-area: m;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
