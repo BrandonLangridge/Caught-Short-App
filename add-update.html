@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Caught Short App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .w3-input {
+                width: 12ch;
+            }
+
+            .left-align-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-left: 100px;
+            }
+
+            .left-align-container > div {
+                margin-bottom: 10px;
+            }
+
+            textarea {
+                margin-left: 10px;
+            }
+
+            .right-align-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end; 
+                margin-left: auto;
+                margin-right: 300px;
+            }
+
+            .search-container {
+                margin-top: 20px;
+            }
+
+            main {
+                border: 2px solid black;  
+                padding: 20px;            
+                border-radius: 10px;      
+                margin: 20px;             
+            }
+
+            nav {
+                border: 2px solid black;  
+                padding: 20px;            
+                border-radius: 10px;      
+                margin: 20px;             
+            }
+
+            h1 {
+                font-size: 3em;
+                font-weight: bold; 
+                text-align: left;
+                color: #333; 
+                margin: 20px 0; 
+                font-family: 'Arial', sans-serif; 
+                letter-spacing: 2px; 
+            }
+        </style>  
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Caught Short App</h1>
+            </header>
+            <nav>
+                <button onclick="location.href='index.html'" class="w3-button w3-block w3-black w3-border w3-border-white">Find Unisex Bathrooms</button>
+                <button class="w3-button w3-block w3-black w3-border w3-border-white">Find Baby Changing Facilities</button>
+                <button class="w3-button w3-block w3-black w3-border w3-border-white">Add / Update Your Facilities</button>
+            </nav>
+            <main>
+                <div class="left-align-container">
+                    <div><h2 style="font-size: 1.2em;">Enter Toilet Name</h2></div>
+                    <div><textarea rows="2" cols="30" placeholder="Enter Toilet Name..."> </textarea></div> 
+                    <div><h3 style="font-size: 1.2em;">Enter Toilet Address</h3></div>
+                    <div><textarea rows="2" cols="30" placeholder="Enter Toilet Address..."> </textarea></div> 
+                    <div><h4 style="font-size: 1.2em;">Enter Toilet Postcode</h4></div>
+                    <div><textarea rows="2" cols="30" placeholder="Enter Toilet Postcode..."> </textarea></div> 
+                    <div><h5 style="font-size: 1.2em;">Enter Number of Unisex Toilets</h5></div>
+                    <div><textarea rows="2" cols="30" placeholder="Enter Number of Unisex Toilets..."> </textarea></div>
+                    <div><h6 style="font-size: 1.2em;">Does it have baby changing facilities?</h6></div> 
+                    <div><input type="radio" name="location" value="location" checked>Yes<br></div> 
+                    <div><input type="radio" name="location" value="default">No<br></div>
+                </div>    
+                <div class="right-align-container">
+                    <div class="search-container">
+                        <button class="w3-button w3-block w3-black w3-border w3-border-white">Search</button>
+                    </div> 
+                </div>        
+            </main>
+        </div>
+    </body>
+</html>
+
+
