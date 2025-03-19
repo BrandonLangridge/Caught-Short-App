@@ -1,107 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Caught Short App</title>
+        <!-- Link to external CSS -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-            .w3-input {
-                width: 12ch;
-            }
-
-            .left-align-container {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                margin-left: 100px;
-            }
-
-            .left-align-container > div {
-                margin-bottom: 10px;
-            }
-
-            textarea {
-                margin-left: 10px;
-            }
-
-            .right-align-container {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end; 
-                margin-left: auto;
-                margin-right: 300px;
-            }
-
-            .search-container {
-                margin-top: 20px;
-            }
-
-            main {
-                border: 2px solid black;  
-                padding: 20px;            
-                border-radius: 10px;      
-                margin: 20px;             
-            }
-
-            nav {
-                border: 2px solid black;  
-                padding: 20px;            
-                border-radius: 10px;      
-                margin: 20px;             
-            }
-
-            h1 {
-                font-size: 3em;
-                font-weight: bold; 
-                text-align: left;
-                color: #333; 
-                margin: 20px 0; 
-                font-family: 'Arial', sans-serif; 
-                letter-spacing: 2px; 
-            }
-        </style>  
+        <!-- Link to external JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
-
-        <script>
-            function generateExcel() {
-                const toiletName = document.querySelector('textarea[placeholder="Enter Toilet Name..."]').value;
-                const toiletAddress = document.querySelector('textarea[placeholder="Enter Toilet Address..."]').value;
-                const toiletPostcode = document.querySelector('textarea[placeholder="Enter Toilet Postcode..."]').value;
-                const hasMaleFacilities = document.querySelector('input[name="maleFacilities"]:checked').value;
-                const hasFemaleFacilities = document.querySelector('input[name="femaleFacilities"]:checked').value;
-                const babyChangingFacilities = document.querySelector('input[name="location"]:checked').value === 'location' ? 'Yes' : 'No';
-
-                const fileInput = document.createElement('input');
-                fileInput.type = 'file';
-                fileInput.accept = '.xlsx';
-                fileInput.onchange = function (e) {
-                    const file = e.target.files[0];
-                    const reader = new FileReader();
-
-                    reader.onload = function (event) {
-                        const data = new Uint8Array(event.target.result);
-                        const workbook = XLSX.read(data, { type: 'array' });
-
-                        const sheet = workbook.Sheets[workbook.SheetNames[0]];
-                        const nextRow = XLSX.utils.sheet_to_json(sheet, { header: 1 }).length + 1;
-
-                        sheet[`A2`] = { v: toiletName };
-                        sheet[`B2`] = { v: toiletAddress };
-                        sheet[`C2`] = { v: toiletPostcode };
-                        sheet[`D2`] = { v: hasMaleFacilities };
-                        sheet[`E2`] = { v: hasFemaleFacilities };
-                        sheet[`F2`] = { v: babyChangingFacilities };
-
-                        XLSX.writeFile(workbook, 'updated_toilet_data.xlsx');
-                    };
-
-                    reader.readAsArrayBuffer(file);
-                };
-
-                fileInput.click();
-            }
-        </script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div id="container">
