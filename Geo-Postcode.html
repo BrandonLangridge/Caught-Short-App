@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caught Short App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+    <!-- Link to external script.js -->
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Caught Short App</h1>
+        </header>
+        <nav>
+            <button onclick="location.href='index.html'" class="w3-button w3-block w3-black w3-border w3-border-white">Find Unisex Bathrooms</button>
+            <button class="w3-button w3-block w3-black w3-border w3-border-white">Find Baby Changing Facilities</button>
+            <button onclick="location.href='add-update.html'" class="w3-button w3-block w3-black w3-border w3-border-white">Add / Update Your Facilities</button>
+        </nav>
+        <main>
+            <div>
+                <div><h2 style="font-size: 1.2em;">Enter Postcode or Provide Geolocation</h2></div>
+                <div class="search-container">
+                    <input type="text" id="searchInput" name="search" class="w3-bar-item w3-input" placeholder="Postcode or Location...">
+                </div>
+                <div class="button-container">
+                    <button id="searchButton" class="w3-button w3-black w3-border">Search by Postcode</button>
+                    <button id="geolocationButton" class="w3-button w3-black w3-border">Use My Geolocation</button>
+                    <button id="listallButton" class="w3-button w3-black w3-border">List all without providing location</button>
+                </div>
+                <!-- Geo map inserted-->
+                <div id="map"></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
