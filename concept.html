@@ -39,6 +39,27 @@
       function outputTable(json) {
         var results = document.getElementById("results");
         results.innerHTML = "";
+
+        var header = document.createElement("tr");
+  results.appendChild(header);
+
+  var th1 = document.createElement("th");
+  th1.innerHTML = "Toilet Name";  
+  header.appendChild(th1);
+
+  var th2 = document.createElement("th");
+  th2.innerHTML = "Postcode";  
+  header.appendChild(th2);
+
+  var th3 = document.createElement("th");
+  th3.innerHTML = "Opening Hours";  
+  header.appendChild(th3);
+
+  var th4 = document.createElement("th");
+  th4.innerHTML = "Baby Change";
+  header.appendChild(th4);
+
+
         var f = json.features;
         for (var i = 0; i < f.length; i++) {
           var tr = document.createElement("tr");
@@ -52,6 +73,19 @@
           var td2 = document.createElement("td");
           tr.appendChild(td2);
           td2.innerHTML = json.features[i].attributes.OPENING_HOURS;
+
+
+
+
+          var td3 = document.createElement("td");
+          tr.appendChild(td3);
+          if (json.features[i].attributes.BABY_CHANGE === null) {
+  td3.innerHTML = "Unknown";
+} else {
+  td3.innerHTML = json.features[i].attributes.BABY_CHANGE;
+}
+
+
         }
       }
     </script>
