@@ -11,7 +11,8 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
     <!-- Link to external script.js -->
-    <script src="script.js" defer></script> 
+    <script src="script.js" defer></script>
+    <script src="graham.js" defer></script> 
 </head>
 <body>
     <div id="container">
@@ -32,9 +33,12 @@
                 <div class="button-container">
                     <button id="searchButton" class="w3-button w3-black w3-border">Search by Postcode</button>
                     <button id="geolocationButton" class="w3-button w3-black w3-border">Use My Geolocation</button>
-                    <button id="listallButton" class="w3-button w3-black w3-border">List all without providing location</button>
+                    <button id="listallButton" class="w3-button w3-black w3-border" onclick="gQuery()">List all without providing location</button>
                 </div>
                 <!-- Geo map inserted-->
+                <table>
+                    <tbody id="results"></tbody>
+                </table>
                 <div id="map"></div>
             </div>
         </main>
