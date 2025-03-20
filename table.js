@@ -6,7 +6,9 @@ function tableQuery() {
     "https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=1%3D1&outFields=*&outSR=4326&f=json";
   fetch(url, { method: "GET", headers: { Accept: "application/json" } })
     .then((res) => res.json())
-    .then(outputTable);
+    .then(outputTable)
+  // Map size is reset after the table is output
+    .then(() => setTimeout(() => map.resize(), 100));
 }
 
 // Function that filters the data using values passed from html element that calls it
@@ -24,7 +26,8 @@ function filter(e) {
 
   fetch(url, { method: "GET", headers: { Accept: "application/json" } })
     .then((res) => res.json())
-    .then(outputTable);
+    .then(outputTable)
+    .then(() => setTimeout(() => map.resize(), 100));
 }
 
 // Function that builds and populates the table with data from the JSON
