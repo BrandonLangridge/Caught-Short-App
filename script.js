@@ -99,7 +99,8 @@ document.getElementById('newButton').addEventListener('click', function() {
 
 
 /* Script for add-update.html file */
-// Generates an Excel file on users device (might not need).
+// Generates an Excel file on users device.
+// The below code was supported by Generative AI, this was not taught in class but is a function that makes the add-update.html file useful.
 
 function generateExcel() {
     const toiletName = document.querySelector('textarea[placeholder="Enter Toilet Name..."]').value;
