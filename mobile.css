@@ -1,23 +1,21 @@
 @media (max-width: 600px) {
   #container {
-    display: grid;
-    grid-template-areas: "h" "n" "m";
-    grid-template-rows: auto auto 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
   nav {
-    font-size: 11px;
-    margin-bottom: 0px;
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 0;
     border: none;
-    margin: 0px;
-    padding-bottom: 0px ;
   }
 
   .button-container,
   #searchInput,
   h2 {
-    font-size: 12px !important;
-    padding: 0px;
+    font-size: 13px !important;
+    padding: 0;
   }
 
   h1 {
@@ -26,23 +24,21 @@
 
   table {
     border-collapse: collapse;
-    font-size: 8px;
+    font-size: 10px;
   }
 
-  th,
-  td {
+  th, td {
     padding: 5px;
     border: 1px solid black;
   }
 }
 
-main{
-    border: none;
-    margin: 0px;
-    padding-top: 0px;
+main {
+  border: none;
+  margin: 0;
+  padding-top: 0;
 }
 
-.search-container{
-padding: 0;
-/* margin: 0; */
+.search-container {
+  padding: 0;
 }
