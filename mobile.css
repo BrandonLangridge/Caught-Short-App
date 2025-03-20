@@ -35,22 +35,22 @@
     padding: 5px;
     border: 1px solid black;
   }
-}
 
-main {
-  border: none;
-  margin: 0;
-  padding-top: 0;
-}
+  main {
+    border: none;
+    margin: 0;
+    padding-top: 0;
+  }
 
-.search-container {
-  padding: 0;
-}
+  .search-container {
+    padding: 0;
+  }
 
-.left-align-container {
-  font-size: 13px;
-}
+  .left-align-container {
+    font-size: 13px;
+  }
 
-.w3-button.w3-black {
-  font-size: 14px !important;
+  .w3-button.w3-black {
+    font-size: 14px !important;
+  }
 }
