@@ -93,8 +93,6 @@ document.getElementById('geolocationButton').addEventListener('click', function(
 // New button for "List all without providing location"
 document.getElementById('newButton').addEventListener('click', function() {
     alert('New Button Clicked');
-    // Gap for Graham to link his page.
-
 });
 
 
