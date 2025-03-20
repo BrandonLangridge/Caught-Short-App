@@ -1,3 +1,5 @@
+// Script in this file is written by Brandon
+
 /* Script for GeoTest.html file */
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiYnJhbmRvbmxhbmdyaWRnZSIsImEiOiJjbThjeDRhamExYW15MmtzaDg2ZTdveWs0In0.VtGxW5vAzEEMe5Kp1FglKw';

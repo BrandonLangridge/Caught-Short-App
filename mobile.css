@@ -1,3 +1,6 @@
+/* Code in this file written by Graham */
+
+/* A media query that changes the appearances of various html elements in index.html and add-update.html when viewed on smaller screens */
 @media (max-width: 600px) {
   #container {
     display: flex;

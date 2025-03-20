@@ -1,9 +1,12 @@
+<!-- Code in this file written by Brandon and Graham -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caught Short App</title>
+    <!-- Multiple stylesheets are imported. Two specifically made for the app and two that provide premade stylings  -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,36 +14,46 @@
     <!-- mapbox -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+    <!-- Favicon is public domain. Thanks to author Sam Killerman     -->
     <link rel="icon" type="image/x-icon" href="toilet_favicon.png">
-    <!-- Link to external script.js -->
+    <!-- Importing two script sources-->
     <script src="script.js" defer></script>
-    <script src="graham.js" defer></script> 
+    <script src="table.js" defer></script> 
 </head>
 <body>
     <div id="container">
+        <!-- Header -->
         <header>
             <h1>Caught Short App</h1>
         </header>
+        <!-- Navigation pane -->
         <nav>
-            <button class="w3-button w3-block w3-black w3-border w3-border-white" value="Y" data-fieldname="FEMALE" onclick="filterB(this)">Find Unisex Bathrooms</button>
-            <button class="w3-button w3-block w3-black w3-border w3-border-white" value="Y"onclick="filter(this)">Find Baby Changing Facilities</button>
+            <!-- Buttons that filter a table of data, by passing their attributes to a function -->
+            <button class="w3-button w3-block w3-black w3-border w3-border-white" value="Y" data-fieldname="FEMALE" onclick="filter(this)">Find Unisex Bathrooms</button>
+            <button class="w3-button w3-block w3-black w3-border w3-border-white" value="Y" data-fieldname="BABY_CHANGE" onclick="filter(this)">Find Baby Changing Facilities</button>
+            <!-- Link to other page -->
             <button onclick="location.href='add-update.html'" class="w3-button w3-block w3-black w3-border w3-border-white">Add / Update Your Facilities</button>
         </nav>
         <main>
             <div>
+                <!-- Postcode search box -->
                 <div><h2 style="font-size: 1.2em;">Enter Postcode or Provide Geolocation</h2></div>
                 <div class="search-container">
                     <input type="text" id="searchInput" name="search" class="w3-bar-item w3-input" placeholder="Postcode or Location...">
                 </div>
                 <div class="button-container">
+                    <!-- Buttons that search by postcode or geolocation, with event listeners in script.js
+                    Also calls functions that clears the table -->
                     <button id="searchButton" class="w3-button w3-black w3-border" onclick="clearResults()">Search by Postcode</button>
                     <button id="geolocationButton" class="w3-button w3-black w3-border" onclick="clearResults()">Use My Geolocation</button>
-                    <button id="listallButton" class="w3-button w3-black w3-border" onclick="gQuery()">List all without providing location</button>
+                    <!-- Button that populates the table without filtering -->
+                    <button id="listallButton" class="w3-button w3-black w3-border" onclick="tableQuery()">List all without providing location</button>
                 </div>
-                <!-- Geo map inserted-->
+               <!-- table ready to be populated from table.js -->
                 <table>
                     <tbody id="results"></tbody>
                 </table>
+                 <!-- Map container ready to be filled from script.js -->
                 <div id="map"></div>
             </div>
         </main>
