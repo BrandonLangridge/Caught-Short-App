@@ -54,7 +54,7 @@ Use-case 1:
 | **Non-functional** | The list presented to the user should be easily to understand and simple to copy and paste into a navigation app. |
 | **Issues** | Pub and restraunt owners might be too busy to provide additional infromation on their available facilities. |
 
-<img src="pictures/most-suitable-toilet.png">
+<img src="../pictures/most-suitable-toilet.png">
 
 ## Software Requirements Specification
 ### Functional requirements
