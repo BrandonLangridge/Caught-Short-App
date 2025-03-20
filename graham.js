@@ -30,7 +30,7 @@ function filterB(e) {
   let encoded = encodeURIComponent(e.value);
   let encoded2 = encodeURIComponent(e.getAttribute("data-fieldname"));
 
-//   let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=FEMALE%20%3D%20'${encoded}'&outFields=*&outSR=4326&f=json`;
+  //   let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=FEMALE%20%3D%20'${encoded}'&outFields=*&outSR=4326&f=json`;
 
   let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=${encoded2}%20%3D%20'${encoded}'&outFields=*&outSR=4326&f=json`;
 
@@ -87,12 +87,15 @@ function outputTable(json) {
     } else {
       td3.innerHTML = json.features[i].attributes.BABY_CHANGE;
     }
-      var td4 = document.createElement("td");
-      tr.appendChild(td4);
+    var td4 = document.createElement("td");
+    tr.appendChild(td4);
+    if (json.features[i].attributes.FEMALE === null) {
+      td4.innerHTML = "Unknown";
+    } else {
       td4.innerHTML = json.features[i].attributes.FEMALE;
     }
   }
-
+}
 
 function clearResults() {
   document.getElementById("results").innerHTML = "";
