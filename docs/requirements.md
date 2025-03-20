@@ -28,7 +28,7 @@
 | **Issues** | Showing the location of the facilities on a spot map |
 
 Use-case 1:
-<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="pictures/babychange-usecase-diagram.png">
+<img width="509" alt="Screenshot 2024-11-04 at 16 36 20" src="../pictures/babychange-usecase-diagram.png">
 
 | UC2| Find unisex bathrooms| 
 | -------------------------------------- | ------------------- |
