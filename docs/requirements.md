@@ -41,7 +41,7 @@ Use-case 1:
 | **Non-functional** | The list presented to the user should be easily read by a person of average vision. |
 | **Issues** |  |
 
-<img src="pictures/unisex-usecase-diagram_2.png">
+<img src="../pictures/unisex-usecase-diagram_2.png">
 
 | UC3| Find most suitable toilet| 
 | -------------------------------------- | ------------------- |
