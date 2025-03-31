@@ -133,7 +133,7 @@ Test Runs
 | UC1, UC2    | FR6            | No profile creation for users                        | Pass   |
 | UC1, UC2    | NFR1           | Simplistic usability for filtering                   | Pass   |
 | UC1, UC2    | NFR2           | Readability of lists                                 | Pass   |
-| UC1, UC2    | NFR3           | Cross-browser compatibility                          | Fail   |
+| UC1, UC2    | NFR3           | Cross-browser compatibility                          | Pass   |
 | UC1, UC2    | NFR4           | System response time                                 | Pass   |
 
 
