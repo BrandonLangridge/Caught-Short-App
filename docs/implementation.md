@@ -34,6 +34,8 @@ Configuration data:
 TODO: Provide an outline of the project folder structure and the role of each file within it.
 provide a table listing the number of jslint warnings/reports for each module.
 
+Our project folder is broken down into 3 main areas, We have out html, css and js files on display and without a folder for easy access to enable quick start up of the Caught Short Web App. We then have two seperate folders, "docs" which contains all of our md work which shows our methodology during the design, planning, requirements, implementation and testing phases. The other folder is titled "pictures" which contails out wire frames and Use case diagrams in one useful location.
+
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
