@@ -34,9 +34,32 @@ Configuration data:
 TODO: Provide an outline of the project folder structure and the role of each file within it.
 provide a table listing the number of jslint warnings/reports for each module.
 
-Our project folder is broken down into 3 main areas, We have out html, css and js files on display and without a folder for easy access to enable quick start up of the Caught Short Web App. We then have two seperate folders, "docs" which contains all of our md work which shows our methodology during the design, planning, requirements, implementation and testing phases. The other folder is titled "pictures" which contails out wire frames and Use case diagrams in one useful location.
+Our project folder is organised into three main areas. The first area includes the HTML, CSS, and JavaScript files, which are easily accessible for quick startup of the Caught Short Web App. The second area consists of two separate folders:
+
+"docs" - This folder contains all our markdown files, documenting our methodology throughout the design, planning, requirements, implementation, and testing phases.
+
+"pictures" - This folder holds wireframes and use case diagrams, providing a centralized location for visual resources.
 
 <img src="../pictures/structure.png">
+
+Each file has the following role:
+
+<br> docs:	Contains documentation files related to the project, including design, implementation, planning, requirements, and testing.
+<br> design.md:	A file that outlines the design of the website and showcases out wireframes.
+<br> implementation.md:	A file that details how the website is implemented, including architectural choices, and any challenges encountered.
+<br> planning.md:	A Markdown file that includes our business case and our options considered to resolve the problem at hand.
+<br> requirements.md:	A Markdown file outlining functional and non-functional requirements and our use case diagrams.
+<br> testing.md: A Markdown file that discusses the testing strategy for the web app including types of tests and testing results.
+<br> add-update.html:	A HTML file for adding or updating new toilet information, the user will submit their toilets to be included in the dataset.
+<br> index.html: The main entry point of the website or web application. This is the landing page or the page users are first directed to when they visit the site.
+<br> mobile.css: A CSS file containing styles specific for mobile devices, ensuring responsive design and good user experience on small screens.
+<br> script.js:	A JavaScript file that contains the functionality of the website. This file likely includes interactive features, form handling, and other dynamic behaviors on the page.
+
+style.css	A CSS file containing the overall styles for the website, including fonts, colors, layout, and other visual elements.
+
+table.js	A JavaScript file that likely handles the functionality for displaying and interacting with tables, possibly for displaying public toilet data.
+
+toilet_favicon.png	An image file used as the favicon for the website, shown in the browser tab.
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
