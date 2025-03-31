@@ -19,20 +19,14 @@ Non-Functional Requirements:
 ## Test Plan
 
 Test Case: FR1 – Pull data from Bristol Open Data
-
-Use Case: UC1, UC2
-
-Description: Test if the system pulls data from the Bristol Open Data database based on the user’s specified criteria.
-
-Prerequisites: The Bristol Open Data database should be accessible and contain relevant data.
-
-Test Data: User provides filtering criteria for specific facilities (e.g. unisex toilets, baby changing).
-
-Manual Test Steps: 
+<br> Use Case: UC1, UC2
+<br> Description: Test if the system pulls data from the Bristol Open Data database based on the user’s specified criteria.
+<br> Prerequisites: The Bristol Open Data database should be accessible and contain relevant data.
+<br> Test Data: User provides filtering criteria for specific facilities (e.g. unisex toilets, baby changing).
+<br> Manual Test Steps: 
 -Input criteria for specific facilities.
 -Verify that the system queries Bristol Open Data and retrieves relevant facilities.
-
-Expected Outcome: Data from the Bristol Open Data database is correctly pulled and matches the filtering criteria.
+<br> Expected Outcome: Data from the Bristol Open Data database is correctly pulled and matches the filtering criteria.
 
 Test Case: FR2 – Provide a list of facilities based on criteria
 Use Case: UC1, UC2
