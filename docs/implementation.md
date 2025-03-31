@@ -3,16 +3,16 @@
 ## Introduction
 The dataset contains information about public toilet locations in Bristol. It has the following information for each toilet:
 
-OBJECTID: A unique identifier for each entry.
-TOILET_NAME: The name of the toilet facility.
-ADDRESS: The location/address of the toilet.
-LOCALITY: The general area or locality where the toilet is situated.
-POSTCODE: The postal code for the location.
-OPENING_HOURS: The operating hours of the toilet facility.
-MALE, FEMALE, DISABLED, BABY_CHANGE: Indicated with (Y/N) whether the toilet offers these features.
-ATTENDED: Whether the toilet is attended by staff, indicated by (Y/N).
-OWNED_TYPE: Indicates whether the toilet is publicly or privately owned.
-X, Y: Coordinates given for mapping the location.
+- OBJECTID: A unique identifier for each entry.
+- TOILET_NAME: The name of the toilet facility.
+- ADDRESS: The location/address of the toilet.
+- LOCATION: The general area or location where the toilet is situated.
+- POSTCODE: The postal code for the location.
+- OPENING_HOURS: The operating hours of the toilet facility.
+- MALE, FEMALE, DISABLED, BABY_CHANGE: Indicated with (Y/N) whether the toilet offers these features.
+- ATTENDED: Whether the toilet is attended by staff, indicated by (Y/N).
+- OWNED_TYPE: Indicates whether the toilet is publicly or privately owned.
+- X, Y: Coordinates given for mapping the location.
 
 We have the following known issues with out dataset:
 
