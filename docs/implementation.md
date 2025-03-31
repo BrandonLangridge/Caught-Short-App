@@ -31,8 +31,7 @@ Configuration data:
 - Operational Data: The dataset uses a mixture of free-text descriptions (for hours and closures) and categorical Y/N responses (for available facilities). This makes it flexible but may also introduce inconsistencies in data formatting.
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it.
-provide a table listing the number of jslint warnings/reports for each module.
+TODO: provide a table listing the number of jslint warnings/reports for each module.
 
 Our project folder is organised into three main areas. The first area includes the HTML, CSS, and JavaScript files, which are easily accessible for quick startup of the Caught Short Web App. The second area consists of two separate folders:
 
@@ -60,6 +59,30 @@ style.css	A CSS file containing the overall styles for the website, including fo
 table.js	A JavaScript file that handles the functionality of the table. Pulling data from the Bristol Open Data API and dynamically rendering it.
 
 toilet_favicon.png	An image file used as the favicon for the website, shown in the browser tab.
+
+
+
+# JSLint warnings table for script.js
+
+| #  | Issue Description | Code Example | Recommended Fix |
+|----|------------------|--------------|-----------------|
+| 1 | Unexpected 'let'. | `for (let i = 0; i < features.length; i++) {` | Use `var` instead: `for (var i = 0; i < features.length; i += 1) {` |
+| 2 | Move variable declaration to top of function or script. | `var map = new mapboxgl.Map({` | Declare variables at top: `var map;` ... `map = new mapboxgl.Map({` |
+| 3 | Expected property 'center' to be ordered before property 'style'. | `center: [-2.587910, 51.454514],` | Alphabetize object properties: `center` before `style` |
+| 4 | Unexpected trailing space. | `zoom: 14 ` | Remove trailing space: `zoom: 14` |
+| 5 | Expected 'var' and instead saw 'let'. | `let features = json.features;` | Use `var`: `var features = json.features;` |
+| 6 | Unexpected 'for'. | `for (let i = 0; i < features.length; i++) {` | Use `var` and `i += 1`: `for (var i = 0; i < features.length; i += 1) {` |
+| 7 | Console error. | `console.error('Error fetching geocode:', error);` | Add guard: `if (console && console.error) { console.error(...); }` |
+| 8 | Alert error. | `alert('Error finding location');` | Avoid `alert()` or add guard: `if (window.alert) { alert(...); }` |
+
+
+# JSLint warnings table for table.js
+| #  | Issue Description | Code Example | Recommended Fix |
+|----|------------------|--------------|-----------------|
+| **1** | Unexpected 'var' | ```js<br>for (var i = 0; i < items.length; i++) {<br>}``` | Replace with `let`:<br>```js<br>for (let i = 0; i < items.length; i++) {<br>}``` |
+| **2** | Property ordering | ```js<br>fetch(url, { method: "GET", headers: { Accept: "application/json" } })``` | Alphabetize properties:<br>```js<br>fetch(url, { headers: { Accept: "application/json" }, method: "GET" })``` |
+| **3** | Unexpected 'for' | ```js<br>for (var i = 0; i < items.length; i++) {<br>}``` | Use array methods:<br>```js<br>items.forEach((item, i) => {<br>  // code<br>});``` |
+
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
