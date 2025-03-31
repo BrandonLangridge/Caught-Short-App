@@ -87,7 +87,7 @@ toilet_favicon.png	An image file used as the favicon for the website, shown in t
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
-![Insert your component Diagram here](images/component.png)
+<img src="../pictures/component.jpg">
 
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
