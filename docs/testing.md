@@ -123,16 +123,17 @@ Non-Functional Requirements:
 
 Test Runs
 
-|| Use-Case ID | Requirement ID |              Test Case                               |   Status  ||
-||-------------------------------------------------------------------------------------------------||
-|| UC1, UC2    | FR1            | Pull data from Bristol Open Data                     |    Pass   ||
-|| UC1, UC2    | FR2            | Provide a list of facilities based on criteria       |    Pass   ||
-|| UC1, UC2    | FR3            | Provide a list of facilities near the user’s location|    Pass   ||
-|| UC1, UC2    | FR4            | Show locations on an interactive map                 |    Pass   ||
-|| UC3         | FR5            | Allow restaurant/pub owners to add information       |    Fail   ||
-|| UC1, UC2    | FR6            | No profile creation for users                        |    Pass   ||
-|| UC1, UC2    | NFR1           | Simplistic usability for filtering                   |    Pass   ||
-|| UC1, UC2    | NFR2           | Readability of lists                                 |    Pass   ||
-|| UC1, UC2    | NFR3           | Cross-browser compatibility                          |    Fail   ||
-|| UC1, UC2    | NFR4           | System response time                                 |    Pass   ||
+| Use-Case ID | Requirement ID | Test Case                                            | Status |
+|-------------|----------------|------------------------------------------------------|--------|
+| UC1, UC2    | FR1            | Pull data from Bristol Open Data                     | Pass   |
+| UC1, UC2    | FR2            | Provide a list of facilities based on criteria       | Pass   |
+| UC1, UC2    | FR3            | Provide a list of facilities near the user’s location| Pass   |
+| UC1, UC2    | FR4            | Show locations on an interactive map                 | Pass   |
+| UC3         | FR5            | Allow restaurant/pub owners to add information       | Fail   |
+| UC1, UC2    | FR6            | No profile creation for users                        | Pass   |
+| UC1, UC2    | NFR1           | Simplistic usability for filtering                   | Pass   |
+| UC1, UC2    | NFR2           | Readability of lists                                 | Pass   |
+| UC1, UC2    | NFR3           | Cross-browser compatibility                          | Fail   |
+| UC1, UC2    | NFR4           | System response time                                 | Pass   |
+
 
