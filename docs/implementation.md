@@ -85,7 +85,7 @@ toilet_favicon.png	An image file used as the favicon for the website, shown in t
 
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+Our application pulls from Bristol Open Data API and dynamically generates a table using the response. It also makes use of Mapbox to provide a visual map.
 
 <img src="../pictures/component.jpg">
 
