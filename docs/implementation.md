@@ -74,11 +74,11 @@ Each file has the following role:
 
 
 # JSLint warnings table for table.js
-| #  | Issue Description | Code Example | Recommended Fix |
-|----|------------------|--------------|-----------------|
-| **1** | Unexpected 'var' | ```js<br>for (var i = 0; i < items.length; i++) {<br>}``` | Replace with `let`:<br>```js<br>for (let i = 0; i < items.length; i++) {<br>}``` |
-| **2** | Property ordering | ```js<br>fetch(url, { method: "GET", headers: { Accept: "application/json" } })``` | Alphabetize properties:<br>```js<br>fetch(url, { headers: { Accept: "application/json" }, method: "GET" })``` |
-| **3** | Unexpected 'for' | ```js<br>for (var i = 0; i < items.length; i++) {<br>}``` | Use array methods:<br>```js<br>items.forEach((item, i) => {<br>  // code<br>});``` |
+| #  | Issue Description | Code Example |
+|----|------------------|--------------|
+| **1** | Unexpected 'var' | ```js<br>for (var i = 0; i < items.length; i++) {<br>}``` |
+| **2** | Property ordering | ```js<br>fetch(url, { method: "GET", headers: { Accept: "application/json" } })``` |
+| **3** | Unexpected 'for' | ```js<br>for (var i = 0; i < items.length; i++) {<br>}``` |
 
 
 ## Software Architecture
