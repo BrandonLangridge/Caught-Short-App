@@ -53,14 +53,9 @@ Each file has the following role:
 <br> index.html: The main entry point of the website or web application. This is the landing page or the page users are first directed to when they visit the site.
 <br> mobile.css: A CSS file containing styles specific for mobile devices, ensuring responsive design and good user experience on small screens.
 <br> script.js:	A JavaScript file that contains the functionality of the map and location gathering, as well as the add/update functionality.
-
-style.css	A CSS file containing the overall styles for the website, including fonts, colors, layout, and other visual elements.
-
-table.js	A JavaScript file that handles the functionality of the table. Pulling data from the Bristol Open Data API and dynamically rendering it.
-
-toilet_favicon.png	An image file used as the favicon for the website, shown in the browser tab.
-
-
+<br> style.css:	A CSS file containing the overall styles for the website, including fonts, colors, layout, and other visual elements.
+<br> table.js: A JavaScript file that handles the functionality of the table. Pulling data from the Bristol Open Data API and dynamically rendering it.
+<br> toilet_favicon.png: An image file used as the favicon for the website, shown in the browser tab.
 
 # JSLint warnings table for script.js
 
