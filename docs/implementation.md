@@ -105,7 +105,7 @@ The user can also enter a poscode and see facilities on a map.
 
 <img src="../pictures/postcode.png">
 
-Aternatively the user may provide location data for the map.
+Aternatively the user may provide location data for the map by clicking the Use My Geolocation button and if necessary allowing access via a browser prompt.
 
 <img src="../pictures/locationrequest.png">
 <img src="../pictures/geofound.png">
