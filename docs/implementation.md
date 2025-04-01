@@ -108,7 +108,7 @@ The user can also enter a poscode and see facilities on a map.
 
 Aternatively the user may provide location data for the map.
 
-<img src="../pictures/locationequest.png">
+<img src="../pictures/locationrequest.png">
 <img src="../pictures/geofound.png">
 
 UC2 - Find unisex bathrooms
@@ -121,5 +121,9 @@ The user can also click the List all without providing location button to see al
 
 <img src="../pictures/listall.png">
 
+UC3 Add/update facilities
+
+User clicks Add / Update Your Facilities button and is taken to a new page with a form and a submit button.
+<img src="../pictures/update.png">
 
 
