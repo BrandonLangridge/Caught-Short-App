@@ -87,10 +87,8 @@ Our application pulls from Bristol Open Data API and dynamically generates a tab
 <img src="../pictures/component.jpg">
 
 ## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
-
-![UML Class diagrams representing JSON query results](images/class1.png)
-TODO: Repeat as necessary
+<img src="../pictures/UML 1.jpg">
+<img src="../pictures/UML 2.jpg">
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
