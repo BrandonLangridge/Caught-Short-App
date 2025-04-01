@@ -91,7 +91,6 @@ Our application pulls from Bristol Open Data API and dynamically generates a tab
 <img src="../pictures/UML2.png">
 
 # User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
 
 User begins on index page.
 
