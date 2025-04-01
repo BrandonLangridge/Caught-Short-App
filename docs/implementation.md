@@ -87,8 +87,8 @@ Our application pulls from Bristol Open Data API and dynamically generates a tab
 <img src="../pictures/component.jpg">
 
 ## Bristol Open Data API
-<img src="../pictures/UML%201">
-<img src="../pictures/UML%UML%202>
+<img src="../pictures/UML1.png">
+<img src="../pictures/UML2.png">
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
