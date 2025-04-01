@@ -59,16 +59,18 @@ Each file has the following role:
 
 # JSLint warnings table for script.js
 
-| #  | Issue Description | Code Example | Recommended Fix |
-|----|------------------|--------------|-----------------|
-| 1 | Unexpected 'let'. | `for (let i = 0; i < features.length; i++) {` | Use `var` instead: `for (var i = 0; i < features.length; i += 1) {` |
-| 2 | Move variable declaration to top of function or script. | `var map = new mapboxgl.Map({` | Declare variables at top: `var map;` ... `map = new mapboxgl.Map({` |
-| 3 | Expected property 'center' to be ordered before property 'style'. | `center: [-2.587910, 51.454514],` | Alphabetize object properties: `center` before `style` |
-| 4 | Unexpected trailing space. | `zoom: 14 ` | Remove trailing space: `zoom: 14` |
-| 5 | Expected 'var' and instead saw 'let'. | `let features = json.features;` | Use `var`: `var features = json.features;` |
-| 6 | Unexpected 'for'. | `for (let i = 0; i < features.length; i++) {` | Use `var` and `i += 1`: `for (var i = 0; i < features.length; i += 1) {` |
-| 7 | Console error. | `console.error('Error fetching geocode:', error);` | Add guard: `if (console && console.error) { console.error(...); }` |
-| 8 | Alert error. | `alert('Error finding location');` | Avoid `alert()` or add guard: `if (window.alert) { alert(...); }` |
+| #  | Issue Description | Code Example |
+|----|------------------|--------------|
+| 1 | Unexpected 'let'. | `for (let i = 0; i < features.length; i++) {` |
+| 2 | Move variable declaration to top of function or script. | `var map = new mapboxgl.Map({` |
+| 3 | Expected property 'center' to be ordered before property 'style'. | `center: [-2.587910, 51.454514],` |
+| 4 | Unexpected trailing space. | `zoom: 14 ` |
+| 5 | Expected 'var' and instead saw 'let'. | `let features = json.features;` |
+| 6 | Unexpected 'for'. | `for (let i = 0; i < features.length; i++) {` |
+| 7 | Console error. | `console.error('Error fetching geocode:', error);` |
+| 8 | Alert error. | `alert('Error finding location');` |
+
+
 
 
 # JSLint warnings table for table.js
