@@ -92,3 +92,34 @@ Our application pulls from Bristol Open Data API and dynamically generates a tab
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+
+User begins on index page.
+
+<img src="../pictures/index.png">
+
+UC1 - Find all baby changing facilities in Bristol
+
+User clicks the Find Baby Changing Facilities button and a table showing only toielts with baby changing facilities is shown. 
+<img src="../pictures/babychange.png">
+
+The user can also enter a poscode and see facilities on a map.
+
+<img src="../pictures/postcode.png">
+
+Aternatively the user may provide location data for the map.
+
+<img src="../pictures/locationequest.png">
+<img src="../pictures/geofound.png">
+
+UC2 - Find unisex bathrooms
+
+User clicks the Find Baby Changing Facilities button and a table showing only toielts with both male and female facilities is shown.
+
+<img src="../pictures/unisex.png">
+
+The user can also click the List all without providing location button to see all toilets without a query filtering.
+
+<img src="../pictures/listall.png">
+
+
+
