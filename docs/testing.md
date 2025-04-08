@@ -3,7 +3,7 @@
 Functional requirements:
 
 - FR1: The system shall pull data from the Bristol Open Data database, to be queried by specific criterias given by the user. UC1, UC2.
-- FR2: The system shall provide a list of all facilities, including their addresses, that fit a users criteria (eg. unisex toilets, baby changing facilities).UC1, UC2.
+- FR2: The system shall provide a list of all facilities, including their addresses, that fit a users criteria (eg. unisex toilets, baby changing facilities). UC1, UC2.
 - FR3: The system should provide a list of facilities near a given user's location. UC1, UC2.
 - FR4: The system could show users the locations of facilities on an interactive map. UC1, UC2.
 - FR5: The system could allow restaurant and pub owners to add information about their facilities to the app. UC3
